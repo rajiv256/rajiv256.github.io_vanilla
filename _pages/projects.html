@@ -1,0 +1,12 @@
+---
+title: "My Projects"
+layout: archive
+permalink: /projects/
+author_profile: true
+---
+{% for repository in site.github.public_repositories %}
+{% if repository.description contains "<!--mark-->"%}
+  <h4><a href='{{ repository.html_url }}'> {{ repository.name }} </a> </h4>
+  <span style="font-size: 0.75em;"> {{ repository.description }}</span></br>
+{% endif %}
+{% endfor %}
