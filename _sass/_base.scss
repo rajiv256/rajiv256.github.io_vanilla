@@ -207,11 +207,11 @@ figure {
 
   &.half {
     > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
+    // > img {
+    //   @include breakpoint($small) {
+    //     width: calc(50% - 0.5em);
+    //   }
+    // }
 
     figcaption {
       width: 100%;
@@ -220,11 +220,11 @@ figure {
 
   &.third {
     > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(33.3333% - 0.5em);
-      }
-    }
+    // > img {
+    //   @include breakpoint($small) {
+    //     width: calc(33.3333% - 0.5em);
+    //   }
+    // }
 
     figcaption {
       width: 100%;
