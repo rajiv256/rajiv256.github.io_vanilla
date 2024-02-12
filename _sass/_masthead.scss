@@ -12,8 +12,8 @@
   z-index: 20;
 
   &__inner-wrap {
-    @include container;
-    @include clearfix;
+    //@include container;
+    //@include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
